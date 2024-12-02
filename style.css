@@ -135,6 +135,12 @@ section{
     display: none;
 }
 
+.search_box.active{
+    top: 110%;
+    box-shadow: var(--box-shadow);
+    transition: 0.2s all linear;
+}
+
 .search_box input{
     padding: 20px;
     border: none;
